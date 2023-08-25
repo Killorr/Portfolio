@@ -1,0 +1,31 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    background-image: url('./images/matrix.gif');
+    background-size: cover;
+    background-position: center;
+}
+
+header{
+    text-align: center;
+    color: lime;
+}
+
+main{
+    background-color: red;
+}
+
+nav {
+    background-color: aqua;
+    position: fixed;
+    left:0;
+    height: 30%;
+    border: 100px;
+    border-color: yellow;
+
+}
+
+nav a:hover{
+    color: green;
+}
