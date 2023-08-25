@@ -1,47 +1,50 @@
-*{
+* {
     font-family: monospace;
     padding: 0;
     margin: 0;
 }
-body{
+body {
     background-image: url('./images/matrix.gif');
     background-size: cover;
     background-position: center;
 }
 
-header{
+header {
     text-align: center;
     color: lime;
     padding: 10px;
 }
 
-main{
+main {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
     background-color: red;
+    position: relative;
+    margin-left: 85px;
 }
+
 article {
     text-align: center;
-    height: 300px;
+    margin-bottom: 20px;
 }
 
 nav {
-    display: flex;
     background-color: black;
     position: fixed;
     left:0;
-    bottom: 50%;
+    bottom: 60%;
     height: auto;
-    border: 100px;
     color: green;
 }
 
-nav a:hover{
+nav a:hover {
     color: green;
 }
 
-h2{
+h2 {
     text-align: center;
     color: green;
 }
-footer{
-    justify-content: baseline;
+footer {
 }
