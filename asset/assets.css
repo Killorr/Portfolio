@@ -1,5 +1,7 @@
 *{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: monospace;
+    padding: 0;
+    margin: 0;
 }
 body{
     background-image: url('./images/matrix.gif');
@@ -10,22 +12,36 @@ body{
 header{
     text-align: center;
     color: lime;
+    padding: 10px;
 }
 
 main{
     background-color: red;
 }
+article {
+    text-align: center;
+    height: 300px;
+}
 
 nav {
-    background-color: aqua;
+    display: flex;
+    background-color: black;
     position: fixed;
     left:0;
-    height: 30%;
+    bottom: 50%;
+    height: auto;
     border: 100px;
-    border-color: yellow;
-
+    color: green;
 }
 
 nav a:hover{
     color: green;
+}
+
+h2{
+    text-align: center;
+    color: green;
+}
+footer{
+    justify-content: baseline;
 }
