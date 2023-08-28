@@ -26,7 +26,7 @@ main {
     display: flex;
     flex-direction: column;
     width: 90%;
-    background-color: red;
+    background-blend-mode: normal;
     position: relative;
     margin-left: 85px;
 }
@@ -36,16 +36,9 @@ article {
     margin-bottom: 20px;
 }
 
-nav {
-    background-color: black;
-    position: fixed;
-    left:0;
-    bottom: 60%;
-    height: auto;
-    color: green;
-}
-
-nav a:hover {
+/*TODO change the h1, h2 titles to unknown until hovered over*/
+h1 {
+    text-align: center;
     color: green;
 }
 
@@ -53,5 +46,68 @@ h2 {
     text-align: center;
     color: green;
 }
-footer {
+
+h3 {
+    text-align: center;
+    color: green;
 }
+
+h4 {
+    text-align: center;
+    color: green;
+}
+
+nav {
+    background-blend-mode: normal;
+    position: fixed;
+    left:0;
+    bottom: 60%;
+    height: auto;
+    color: green;
+}
+
+article p {
+    display: none;
+}
+
+footer {
+
+}
+/*--ANIMATIONS--*/
+h1::before {
+    content: "Welcome ☠"
+}
+
+h2::before {
+    content: "Unknown.."
+}
+
+h3::before{
+    content: "Unknown.."
+}
+
+h4::before {
+    content: "Unknown.."
+}
+
+h1:hover::after {
+    content: " you are now in the Matrix.."
+}
+
+h2:hover::after{
+    content: " About me.."
+}
+
+h3:hover::after {
+    content: " Projects.."
+}
+
+h4:hover::after {
+    content: " visit.."
+}
+
+article:hover p {
+    display: inline-block;
+    color: white;
+}
+
