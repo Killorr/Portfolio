@@ -13,7 +13,7 @@ html {
     background-attachment: fixed;
 }
 body {
-   
+   size: 16px;
 }
 
 header {
@@ -29,32 +29,47 @@ main {
     background-blend-mode: normal;
     position: relative;
     margin-left: 85px;
+    place-items: center;
 }
 
 article {
-    text-align: center;
     margin-bottom: 20px;
+    padding: 16px;
+    width: 700px;
 }
 
 /*TODO change the h1, h2 titles to unknown until hovered over*/
 h1 {
-    text-align: center;
+    font-size: 60px;
     color: green;
+    border-width: 10px;
+    border-style: dashed;
+    size: em;
 }
 
 h2 {
     text-align: center;
+    font-size: 30px;
     color: green;
+    border-width: 2px;
+    border-style: dashed;
+    size: em;
 }
 
 h3 {
     text-align: center;
+    font-size: 30px;
     color: green;
+    border-width: 2px;
+    border-style: dashed;
+    size: em;
 }
 
 h4 {
     text-align: center;
+    font-size: 30px;
     color: green;
+    size: em;
 }
 
 nav {
@@ -68,42 +83,71 @@ nav {
 
 article p {
     display: none;
+    border-style: dotted;
+    margin: 1em 0;
+}
+
+.repl {
+    font-size: 60px;
+    color: green;
+    border-width: 10px;
+    border-style: dashed;
+    size: em;
 }
 
 footer {
-
+    bottom: 0px;
 }
 /*--ANIMATIONS--*/
-h1::before {
-    content: "Welcome ☠"
+.repl {
+    display: none;
 }
 
-h2::before {
-    content: "Unknown.."
+header:hover .init{
+    display: none;
 }
 
-h3::before{
-    content: "Unknown.."
+header:hover .repl{
+    display: block;
 }
 
-h4::before {
-    content: "Unknown.."
+article:hover h2{
+    display: none;
 }
 
-h1:hover::after {
-    content: " you are now in the Matrix.."
+article:hover .repl1{
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    color: green;
+    border-width: 2px;
+    border-style: dashed;
+    size: em;
 }
 
-h2:hover::after{
-    content: " About me.."
+article + article:hover h3{
+    display: none;
 }
 
-h3:hover::after {
-    content: " Projects.."
+article + article:hover .repl2{
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    color: green;
+    border-width: 2px;
+    border-style: dashed;
+    size: em;
 }
 
-h4:hover::after {
-    content: " visit.."
+footer:hover h4{
+    display: none;
+}
+
+footer:hover .repl{
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    border-style: none;
 }
 
 article:hover p {
