@@ -179,16 +179,12 @@ article:hover p {
 
 /*MEDIA VIEWPORTS*/
 @media screen and (max-width: 768px) {
-    header .init{
+    .init {
         display: none;
     }
     
     header .repl{
         display: block;
-    }
-    
-    article .init{
-        display: none;
     }
     
     article .repl3{
@@ -255,16 +251,12 @@ article:hover p {
 }
 
 @media screen and (max-width: 1024px) {
-    header .init{
+    .init{
         display: none;
     }
     
     header .repl{
         display: block;
-    }
-    
-    article .init{
-        display: none;
     }
     
     article .repl3{
