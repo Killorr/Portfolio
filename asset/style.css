@@ -1,4 +1,5 @@
-#ul-Projects {
+
+.projects:hover {
     display: block;
     color: white;
 }
