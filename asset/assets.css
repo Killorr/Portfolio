@@ -176,7 +176,11 @@ article:hover p {
 .Warning {
     border-color: red;
 }
-
+ 
+article:hover #project-repo{
+    display: block;
+    color: white;
+}
 /*MEDIA VIEWPORTS*/
 @media screen and (max-width: 768px) {
     .init {
