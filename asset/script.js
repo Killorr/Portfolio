@@ -3,7 +3,7 @@ repos thus, automatically updating the repos within
 the Portfolio*/
 var list = $("#ul-Projects");
 var projectRepo = $("#Project-repo");
-var requestUrl = 'https://api.github.com/users/Killorr/repos';
+var requestUrl = 'https://api.github.com/users/arthur-bridges/repos';
 
 function getApi () {
     fetch(requestUrl).then(function (response){
