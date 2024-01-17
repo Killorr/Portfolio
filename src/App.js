@@ -14,6 +14,7 @@ function App() {
             <a
               href="#home"
               className="text-base text-textBase font-medium hover:text-slate-100 cursor-pointer duration-100 ease-in-out"
+              onClick={() => setIsActive(false)}
             >
               Home
             </a>
@@ -21,6 +22,7 @@ function App() {
             <a
               href="#about"
               className="text-base text-textBase font-medium hover:text-slate-100 cursor-pointer duration-100 ease-in-out"
+              onClick={() => setIsActive(false)}
             >
               About
             </a>
@@ -28,6 +30,7 @@ function App() {
             <a
               href="#projects"
               className="text-base text-textBase font-medium hover:text-slate-100 cursor-pointer duration-100 ease-in-out"
+              onClick={() => setIsActive(false)}
             >
               Projects
             </a>
@@ -35,6 +38,7 @@ function App() {
             <a
               href="#contact"
               className="text-base text-textBase font-medium hover:text-slate-100 cursor-pointer duration-100 ease-in-out"
+              onClick={() => setIsActive(false)}
             >
               Contact
             </a>
@@ -42,6 +46,7 @@ function App() {
             <a
               href="#github"
               className="text-base text-textBase font-medium hover:text-slate-100 cursor-pointer duration-100 ease-in-out"
+              onClick={() => setIsActive(false)}
             >
               Github
             </a>
@@ -49,6 +54,7 @@ function App() {
             <a
               href="#download"
               className="ml-auto text-textBase font-medium hover:text-slate-100 cursor-pointer border border-textBase px-2 py-1 rounded-xl hover:border-gray-100 duration-100 ease-in-out"
+              onClick={() => setIsActive(false)}
             >
               Download
             </a>
@@ -57,6 +63,7 @@ function App() {
               className="block md:hidden ml-auto cursor-pointer"
               onClick={() => setIsActive(!isActive)}
             >
+              {/*TODO: Fix the IoMenu icon not appearing */}
               <IoMenu className="text-2xl text-textBase" />
             </div>
 
@@ -110,7 +117,17 @@ function App() {
       </nav>
       <div className="relative" id="home">
         <Spline scene="https://prod.spline.design/esNnLYmXpMhZ7JtO/scene.splinecode" />
+
+        <div className="absolute bottom-10 w-full justify-center items-center flex">
+          <div className="shadow-md p-4 flex items-center justify-center bg-zinc-900 rounded-3xl">
+            <p className="text-textBase">Press and drag to orbit</p>
+          </div>
+        </div>
       </div>
+      {/* MAIN */}
+      <main className="w-[80%] mt-5">
+             {/*About section */}
+      </main>
     </div>
   );
 }
