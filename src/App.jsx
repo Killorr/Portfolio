@@ -69,71 +69,70 @@ function App() {
               >
                 Download
               </a>
+            </div>
+            <motion.div
+              initial={{ opacity: 0, scale: 0.2 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ type: "spring" }}
+              className="block md:hidden ml-auto cursor-pointer"
+              onClick={() => setIsActive(!isActive)}
+            >
+              <IoMenu className="text-2xl text-textBase" />
+            </motion.div>
 
+            {isActive && (
               <motion.div
-                initial={{ opacity: 0, scale: 0.2 }}
-                animate={{ opacity: 1, scale: 1 }}
-                transition={{ type: "spring" }}
-                className="block md:hidden ml-auto cursor-pointer"
+                initial={{ opacity: 0, scale: 0.5 }}
+                animate={{ opacity: 1, scale: 1.1 }}
+                exit={{ opacity: 0, scale: 0.5 }}
+                transition={{ delay: 0.3, type: "spring" }}
+                className="p-4 w-275 bg-navBar rounded-lg fixed top-24 right-16 flex flex-col items-center justify-evenly gap-6"
                 onClick={() => setIsActive(!isActive)}
               >
-                {/*TODO: Fix the IoMenu icon not appearing */}
-                <IoMenu className="text-2xl text-textBase" />
-              </motion.div>
-
-              {isActive && (
-                <motion.div
-                  initial={{ opacity: 0, scale: 0.5 }}
-                  animate={{ opacity: 1, scale: 1.1 }}
-                  exit={{ opacity: 0, scale: 0.5 }}
-                  transition={{ delay: "0.1s", type: "spring" }}
-                  className="p-4 w-275 bg-navBar rounded-lg fixed top-24 right-16 flex flex-col items-center justify-evenly gap-6"
+                <a
+                  href="#home"
+                  className="text-base text-textBase font-medium hover:text-slate-100 cursor-pointer duration-100 ease-in-out"
                 >
-                  <a
-                    href="#home"
-                    className="text-base text-textBase font-medium hover:text-slate-100 cursor-pointer duration-100 ease-in-out"
-                  >
-                    Home
-                  </a>
+                  Home
+                </a>
 
-                  <a
-                    href="#about"
-                    className="text-base text-textBase font-medium hover:text-slate-100 cursor-pointer duration-100 ease-in-out"
-                  >
-                    About
-                  </a>
+                <a
+                  href="#about"
+                  className="text-base text-textBase font-medium hover:text-slate-100 cursor-pointer duration-100 ease-in-out"
+                >
+                  About
+                </a>
 
-                  <a
-                    href="#projects"
-                    className="text-base text-textBase font-medium hover:text-slate-100 cursor-pointer duration-100 ease-in-out"
-                  >
-                    Projects
-                  </a>
+                <a
+                  href="#projects"
+                  className="text-base text-textBase font-medium hover:text-slate-100 cursor-pointer duration-100 ease-in-out"
+                >
+                  Projects
+                </a>
 
-                  <a
-                    href="#contact"
-                    className="text-base text-textBase font-medium hover:text-slate-100 cursor-pointer duration-100 ease-in-out"
-                  >
-                    Contact
-                  </a>
+                <a
+                  href="#contact"
+                  className="text-base text-textBase font-medium hover:text-slate-100 cursor-pointer duration-100 ease-in-out"
+                >
+                  Contact
+                </a>
 
-                  <a
-                    href="#github"
-                    className="text-base text-textBase font-medium hover:text-slate-100 cursor-pointer duration-100 ease-in-out"
-                  >
-                    Github
-                  </a>
+                <a
+                  href="#github"
+                  className="text-base text-textBase font-medium hover:text-slate-100 cursor-pointer duration-100 ease-in-out"
+                >
+                  Github
+                </a>
 
-                  <motion.a
-                    whileTap={{ scale: 0.8 }}
-                    href="#download"
-                    className="ml-auto text-textBase font-medium hover:text-slate-100 cursor-pointer border border-textBase px-2 py-1 rounded-xl hover:border-gray-100 duration-100 ease-in-out"
-                  >
-                    Download
-                  </motion.a>
-                </motion.div>
-              )}
-            </div>
+                <motion.a
+                  whileTap={{ scale: 0.8 }}
+                  href="#download"
+                  className="ml-auto text-textBase font-medium hover:text-slate-100 cursor-pointer border border-textBase px-2 py-1 rounded-xl hover:border-gray-100 duration-100 ease-in-out"
+                >
+                  Download
+                </motion.a>
+              </motion.div>
+            )}
           </div>
         </nav>
         <div className="relative" id="home">
