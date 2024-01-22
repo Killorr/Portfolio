@@ -55,14 +55,6 @@ function App() {
               </a>
 
               <a
-                href="#github"
-                className="text-base text-textBase font-medium hover:text-slate-100 cursor-pointer duration-100 ease-in-out"
-                onClick={() => setIsActive(false)}
-              >
-                Github
-              </a>
-
-              <a
                 href="#download"
                 className="ml-auto text-textBase font-medium hover:text-slate-100 cursor-pointer border border-textBase px-2 py-1 rounded-xl hover:border-gray-100 duration-100 ease-in-out"
                 onClick={() => setIsActive(false)}
@@ -85,7 +77,7 @@ function App() {
                 initial={{ opacity: 0, scale: 0.5 }}
                 animate={{ opacity: 1, scale: 1.1 }}
                 exit={{ opacity: 0, scale: 0.5 }}
-                transition={{ delay: 0.3, type: "spring" }}
+                transition={{ delay: 0.1, type: "spring" }}
                 className="p-4 w-275 bg-navBar rounded-lg fixed top-24 right-16 flex flex-col items-center justify-evenly gap-6"
                 onClick={() => setIsActive(!isActive)}
               >
@@ -115,13 +107,6 @@ function App() {
                   className="text-base text-textBase font-medium hover:text-slate-100 cursor-pointer duration-100 ease-in-out"
                 >
                   Contact
-                </a>
-
-                <a
-                  href="#github"
-                  className="text-base text-textBase font-medium hover:text-slate-100 cursor-pointer duration-100 ease-in-out"
-                >
-                  Github
                 </a>
 
                 <motion.a
@@ -165,7 +150,18 @@ function App() {
             {/*Content of about Container */}
             <div className="w-full h-420 flex flex-col items-center justify-center">
               <p className="text-lg text-textBase text-center">
-                About us content. Come back here!!
+                Hello, my name is Arthur Duncan Bridges. I'm an aspiring
+                software developer from University Of Texas at San Antonio. I
+                love to learn new technologies, read, and watch anime.
+                TechnologiHello! I'm Arthur Duncan Bridges, an aspiring software
+                developer from the University of Texas at San Antonio. My
+                passion for technology drives me to constantly explore and learn
+                new skills. Beyond coding, I enjoy reading and immersing myself
+                in the vibrant worlds of anime. I have developed proficiency in
+                a variety of technologies including Javascript, MySQL, MongoDB,
+                React JS, Three JS, HTML, and CSS. Feel free to check out my
+                Github to see some of the projects I've been excited to
+                work on!
               </p>
 
               <motion.button
@@ -234,15 +230,15 @@ function App() {
                   <p className="text-lg text-textBase font-medium uppercase">
                     {p.name.length > 25 ? `${p.name.slice(0, 25)}...` : p.name}
                   </p>
-                  <img
-                    src={p.image}
-                    className="w-full h-full object-cover rounded-md my-4"
-                    alt=""
-                  />
-
+                  <a href={p.github} alt="Github link">
+                    <img
+                      src={p.image}
+                      className="w-full h-full object-cover rounded-md my-4"
+                      alt=""
+                    />
+                  </a>
                   <div className="flex flex-1 items-center justify-center">
                     <p className="text-lg text-gray-300">
-                      {" "}
                       Technologies
                       <span className="block text-sm to-gray-500">
                         {p.techs}
@@ -268,14 +264,13 @@ function App() {
             <p className="text-2xl text-gray-400 capitalize">
               Follow me on the following Social Media
             </p>
-            {/*Add the right href */}
             <div className="flex items-center justify-center w-full my-4 flex-wrap gap-4">
               {SocialMedia &&
                 SocialMedia.map((d) => (
                   <motion.a
                     whileTap={{ scale: 0.8 }}
                     key={d.id}
-                    href="#"
+                    href={d.link}
                     className="w-full md:w-auto px-3 md:px-8 py-5 border border-zinc-800 hover:border-zinc-600 duration-100 ease-in-out cursor-pointer flex items-center justify-center gap-3"
                   >
                     {d.iconSrc}

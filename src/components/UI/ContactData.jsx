@@ -5,6 +5,6 @@ export const SocialMedia = [
     id: 1,
     iconSrc: <IoLogoGithub className="text-textBase text-3xl cursor-pointer" />,
     name: "Github",
-    link: "#",
+    link: "https://github.com/Arthur-Bridges",
   },
 ];
