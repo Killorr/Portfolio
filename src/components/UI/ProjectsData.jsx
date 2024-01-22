@@ -1,9 +1,9 @@
-//TODO: import correct images
+
 import TestTake from "../../images/testTake.png";
 import SocialAPI from "../../images/socialAPI.png";
 import TextEditor from "../../images/TextEditor.png";
 
-//TODO: Insert the right Project data
+
 export const Projects = [
   {
     id: 1,

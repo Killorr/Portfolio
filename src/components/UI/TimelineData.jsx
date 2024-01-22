@@ -1,7 +1,5 @@
 import { IoCodeWorking } from "react-icons/io5";
 
-//TODO:Fill in the Description property
-
 export const Experience = [
   {
     id: 1,
