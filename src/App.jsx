@@ -11,6 +11,7 @@ import { Experience } from "./components/UI/TimelineData.jsx";
 import { Projects } from "./components/UI/ProjectsData.jsx";
 import { SocialMedia } from "./components/UI/ContactData.jsx";
 import { AnimatePresence, motion } from "framer-motion";
+import { Routes, Route } from "react-router-dom";
 
 function App() {
   const [isActive, setIsActive] = useState(false);
