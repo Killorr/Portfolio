@@ -150,18 +150,14 @@ function App() {
             {/*Content of about Container */}
             <div className="w-full h-420 flex flex-col items-center justify-center">
               <p className="text-lg text-textBase text-center">
-                Hello, my name is Arthur Duncan Bridges. I'm an aspiring
-                software developer from University Of Texas at San Antonio. I
-                love to learn new technologies, read, and watch anime.
-                TechnologiHello! I'm Arthur Duncan Bridges, an aspiring software
-                developer from the University of Texas at San Antonio. My
-                passion for technology drives me to constantly explore and learn
-                new skills. Beyond coding, I enjoy reading and immersing myself
-                in the vibrant worlds of anime. I have developed proficiency in
-                a variety of technologies including Javascript, MySQL, MongoDB,
+                Hello! I'm Arthur Duncan Bridges, an aspiring software developer
+                from the University of Texas at San Antonio. My passion for
+                technology drives me to constantly explore and learn new skills.
+                Beyond coding, I enjoy reading and immersing myself in the
+                vibrant worlds of anime. I have developed proficiency in a
+                variety of technologies including Javascript, MySQL, MongoDB,
                 React JS, Three JS, HTML, and CSS. Feel free to check out my
-                Github to see some of the projects I've been excited to
-                work on!
+                Github to see some of the projects I've been excited to work on!
               </p>
 
               <motion.button
