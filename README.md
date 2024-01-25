@@ -29,6 +29,9 @@ N/A
 Video of deployed App: 
 https://arthur-bridges.github.io/Portfolio/
 
+Deployed on Netlify: 
+https://arthursportfolio.netlify.app/
+
 Site:
 
 ## Badges
