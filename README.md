@@ -18,7 +18,7 @@ Huge credit to Vetrivel Ravi for showing how to implement Spline and framer anim
 
 
 
-Created with the use of Javascript, Node, Express.js, Spline, Framer Motion, and Vite. 
+Created with the use of Javascript, Node, Express.js, Spline, Framer Motion, Vite, and Tailwind CSS. 
 
 ## License
 
@@ -27,7 +27,7 @@ N/A
 ## Deployment
 
 Video of deployed App: 
-
+https://arthur-bridges.github.io/Portfolio/
 
 Site:
 
