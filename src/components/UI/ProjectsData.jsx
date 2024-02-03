@@ -2,8 +2,8 @@
 import TestTake from "../../images/testTake.png";
 import SocialAPI from "../../images/socialAPI.png";
 import TextEditor from "../../images/TextEditor.png";
-import from "../../images/";
-
+import Wip from "../../images/work-in-progress.jpeg";
+ 
 
 export const Projects = [
   {
@@ -30,7 +30,7 @@ export const Projects = [
   {
     id: 4, 
     name: "Book Bonaza",
-    image:,
+    image: Wip,
     techs: "Html, Javascript, React JS, Vite, Express JS, CSS, Node JS, MongoDB, & Mongoose",
     github: "https://github.com/Arthur-Bridges/Book-Bonanza",
   },
