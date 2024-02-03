@@ -2,6 +2,7 @@
 import TestTake from "../../images/testTake.png";
 import SocialAPI from "../../images/socialAPI.png";
 import TextEditor from "../../images/TextEditor.png";
+import from "../../images/";
 
 
 export const Projects = [
@@ -26,4 +27,11 @@ export const Projects = [
     techs: "Html, Javascript, Bulma CSS",
     github: "https://arthur-bridges.github.io/TestTaking-Website/",
   },
-];
+  {
+    id: 4, 
+    name: "Book Bonaza",
+    image:,
+    techs: "Html, Javascript, React JS, Vite, Express JS, CSS, Node JS, MongoDB, & Mongoose",
+    github: "https://github.com/Arthur-Bridges/Book-Bonanza",
+  },
+  ;
