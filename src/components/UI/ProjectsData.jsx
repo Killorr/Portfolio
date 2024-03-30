@@ -50,4 +50,11 @@ export const Projects = [
       "MongoDB, Node JS, Javascript, Express JS, React JS, Socket.io, Tailwind CSS ",
     github: "https://github.com/wileland/Quizard",
   },
+  {
+    id: 7,
+    name: "NAS-Network-Attached-Storage",
+    image: Wip,
+    techs: "Firebase, Node JS, Javascript, React JS, Redux, Tailwind CSS ",
+    github: "https://github.com/CodePro-ABridges/NAS-Network-Attached-Storage-",
+  },
 ];
