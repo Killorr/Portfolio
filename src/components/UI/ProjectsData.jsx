@@ -3,6 +3,8 @@ import SocialAPI from "../../images/socialAPI.png";
 import TextEditor from "../../images/TextEditor.png";
 import Wip from "../../images/work-in-progress.jpeg";
 import RealTalk from "../../images/RealTalk.png";
+import WeatherApi from "../../images/WeatherApi.png";
+import ArtLab from "../../images/Arthurs Laboratory.png";
 
 export const Projects = [
   {
@@ -56,5 +58,19 @@ export const Projects = [
     image: Wip,
     techs: "Firebase, Node JS, Javascript, React JS, Redux, Tailwind CSS ",
     github: "https://github.com/CodePro-ABridges/NAS-Network-Attached-Storage-",
+  },
+  {
+    id: 8,
+    name: "Arthur's Laboratory",
+    image: ArtLab,
+    techs: "MongoDB, Node JS, Javascript, React JS, Tailwind CSS ",
+    github: "https://github.com/CodePro-ABridges/Arthur-s-Laboratory",
+  },
+  {
+    id: 9,
+    name: "Sun-times",
+    image: WeatherApi,
+    techs: "MongoDB, Node JS, TypeScript, React JS, Tailwind CSS ",
+    github: "https://github.com/CodePro-ABridges/Sun-Times",
   },
 ];
