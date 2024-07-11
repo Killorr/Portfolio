@@ -158,9 +158,10 @@ function App() {
                 technology drives me to constantly explore and learn new skills.
                 Beyond coding, I enjoy reading and immersing myself in the
                 vibrant worlds of anime. I have developed proficiency in a
-                variety of technologies including Javascript, MySQL, MongoDB,
-                React JS, Three JS, HTML, and CSS. Feel free to check out my
-                Github to see some of the projects I've been excited to work on!
+                variety of technologies including Typescript, Javascript, C/C++,
+                MySQL, MongoDB, React JS, Three JS, HTML, CSS, and many more!
+                Feel free to check out my Github to see some of the projects
+                I've been excited to work on!
               </p>
 
               <motion.button
