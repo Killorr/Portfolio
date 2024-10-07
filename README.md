@@ -14,11 +14,10 @@
 Hello, my name is Arthur, and I would like to present my portfolio.
 
 ## Credits
+
 Huge credit to Vetrivel Ravi for showing how to implement Spline and framer animations within a React app.
 
-
-
-Created with the use of Javascript, Node, Express.js, Spline, Framer Motion, Vite, and Tailwind CSS. 
+Created with the use of Javascript, Node, Express.js, Spline, Framer Motion, Vite, and Tailwind CSS.
 
 ## License
 
@@ -26,10 +25,10 @@ N/A
 
 ## Deployment
 
-Video of deployed App: 
+Video of deployed App:
 https://arthur-bridges.github.io/Portfolio/
 
-Deployed on Netlify: 
+Deployed on Netlify:
 https://arthursportfolio.netlify.app/
 
 Site:

@@ -1,10 +1,11 @@
 import TestTake from "../../images/testTake.png";
 import SocialAPI from "../../images/socialAPI.png";
 import TextEditor from "../../images/TextEditor.png";
-import Wip from "../../images/work-in-progress.jpeg";
+// import Wip from "../../images/work-in-progress.jpeg";
 import RealTalk from "../../images/RealTalk.png";
 import WeatherApi from "../../images/WeatherApi.png";
 import ArtLab from "../../images/Arthurs Laboratory.png";
+import FMS from "../../images/FMS.png";
 
 export const Projects = [
   {
@@ -30,14 +31,6 @@ export const Projects = [
   },
   {
     id: 4,
-    name: "Book Bonaza",
-    image: Wip,
-    techs:
-      "Html, Javascript, React JS, Vite, Express JS, CSS, Node JS, MongoDB, & Mongoose",
-    github: "https://github.com/Arthur-Bridges/Book-Bonanza",
-  },
-  {
-    id: 5,
     name: "RealTalk",
     image: RealTalk,
     techs:
@@ -45,29 +38,21 @@ export const Projects = [
     github: "https://github.com/CodePro-ABridges/Real-Time-ChatApp",
   },
   {
-    id: 6,
-    name: "Quizard",
-    image: Wip,
-    techs:
-      "MongoDB, Node JS, Javascript, Express JS, React JS, Socket.io, Tailwind CSS ",
-    github: "https://github.com/wileland/Quizard",
-  },
-  {
-    id: 7,
+    id: 5,
     name: "NAS-Network-Attached-Storage",
-    image: Wip,
+    image: FMS,
     techs: "Firebase, Node JS, Javascript, React JS, Redux, Tailwind CSS ",
     github: "https://github.com/CodePro-ABridges/NAS-Network-Attached-Storage-",
   },
   {
-    id: 8,
+    id: 6,
     name: "Arthur's Laboratory",
     image: ArtLab,
     techs: "MongoDB, Node JS, Javascript, React JS, Tailwind CSS ",
     github: "https://github.com/CodePro-ABridges/Arthur-s-Laboratory",
   },
   {
-    id: 9,
+    id: 7,
     name: "Sun-times",
     image: WeatherApi,
     techs: "MongoDB, Node JS, TypeScript, React JS, Tailwind CSS ",
