@@ -17,7 +17,7 @@ function App() {
   const [isActive, setIsActive] = useState(false);
 
   const handleDownload = () => {
-    const resumeUrl = "";
+    const resumeUrl = "../src/images/MyResume.pdf";
     const link = document.createElement("a");
     link.href = resumeUrl;
     link.download = "Arthur_Bridges_Resume.pdf";
