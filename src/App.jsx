@@ -11,13 +11,12 @@ import { Experience } from "./components/UI/TimelineData.jsx";
 import { Projects } from "./components/UI/ProjectsData.jsx";
 import { SocialMedia } from "./components/UI/ContactData.jsx";
 import { AnimatePresence, motion } from "framer-motion";
-// import { Routes, Route } from "react-router-dom";
 
 function App() {
   const [isActive, setIsActive] = useState(false);
 
   const handleDownload = () => {
-    const resumeUrl = "../src/images/MyResume.pdf";
+    const resumeUrl = process.env.PUBLIC_URL + "/MyResume.pdf";
     const link = document.createElement("a");
     link.href = resumeUrl;
     link.download = "Arthur_Bridges_Resume.pdf";
