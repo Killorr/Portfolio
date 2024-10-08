@@ -25,13 +25,8 @@ N/A
 
 ## Deployment
 
-Video of deployed App:
-[Portfolio](https://codepro-abridges.github.io/Portfolio/)
-
-Deployed on Netlify:
-https://arthursportfolio.netlify.app/
-
 Site:
+[Portfolio](https://codepro-abridges.github.io/Portfolio/)
 
 ## Badges
 
