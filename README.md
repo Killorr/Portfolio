@@ -26,7 +26,7 @@ N/A
 ## Deployment
 
 Video of deployed App:
-https://arthur-bridges.github.io/Portfolio/
+[Portfolio](https://codepro-abridges.github.io/Portfolio/)
 
 Deployed on Netlify:
 https://arthursportfolio.netlify.app/
