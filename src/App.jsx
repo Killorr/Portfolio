@@ -16,7 +16,7 @@ function App() {
   const [isActive, setIsActive] = useState(false);
 
   const handleDownload = () => {
-    const resumeUrl = process.env.PUBLIC_URL + "/MyResume.pdf";
+    const resumeUrl = process.env.PUBLIC_URL + "/ResumeV2.pdf";
     const link = document.createElement("a");
     link.href = resumeUrl;
     link.download = "Arthur_Bridges_Resume.pdf";
